@@ -1,0 +1,12 @@
+{
+  "network": "fuji",
+  "chainId": 43113,
+  "deployer": "0x79f946F189db26Ef670c3B41c3F3113D69e38861",
+  "contracts": {
+    "AvairaToken": "0xF520674e167dc7b8B0F484354391BdFFaFD1d926",
+    "AgentRegistry": "0x05D2B87251f5EEc50ace6D94977aeF9fbdD459e7",
+    "ReputationEngine": "0x8e9264C6e7AbBE21C698A285FFed4C19E7F6c618",
+    "MissionManager": "0xf3b2C22eAf7B26dF1e43e56D052C598277cBAAad"
+  },
+  "deployedAt": "2026-03-12T16:42:42.630Z"
+}

@@ -1,9 +1,9 @@
 export const CONTRACTS = {
   // Update after deployment
-  AvairaToken: '0x0000000000000000000000000000000000000000' as `0x${string}`,
-  AgentRegistry: '0x0000000000000000000000000000000000000000' as `0x${string}`,
-  MissionManager: '0x0000000000000000000000000000000000000000' as `0x${string}`,
-  ReputationEngine: '0x0000000000000000000000000000000000000000' as `0x${string}`,
+  AvairaToken: '0xF520674e167dc7b8B0F484354391BdFFaFD1d926' as `0x${string}`,
+  AgentRegistry: '0x05D2B87251f5EEc50ace6D94977aeF9fbdD459e7' as `0x${string}`,
+  MissionManager: '0xf3b2C22eAf7B26dF1e43e56D052C598277cBAAad' as `0x${string}`,
+  ReputationEngine: '0x8e9264C6e7AbBE21C698A285FFed4C19E7F6c618' as `0x${string}`,
 };
 
 export const ABIS = {
