@@ -1,0 +1,22 @@
+{
+  "name": "@avaira/sdk",
+  "version": "0.1.0",
+  "description": "TypeScript SDK for interacting with the Avaira Protocol",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "viem": "^2.46.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "peerDependencies": {
+    "viem": "^2.0.0"
+  },
+  "license": "MIT"
+}

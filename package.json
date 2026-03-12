@@ -1,0 +1,34 @@
+{
+  "name": "avaira-protocol",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Avaira Protocol — Autonomous AI Agents on Avalanche",
+  "scripts": {
+    "dev": "pnpm --filter frontend dev",
+    "dev:backend": "cd backend && npm run dev",
+    "compile": "cd contracts && .\\node_modules\\.bin\\hardhat compile",
+    "test": "cd contracts && .\\node_modules\\.bin\\hardhat test",
+    "deploy:fuji": "cd contracts && .\\node_modules\\.bin\\hardhat run scripts/deploy.cjs --network fuji",
+    "build": "pnpm --filter frontend build"
+  },
+  "workspaces": [
+    "contracts",
+    "frontend",
+    "sdk"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "web3",
+    "avalanche",
+    "ai-agents",
+    "autonomous",
+    "defi",
+    "hardhat",
+    "nextjs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs"
+}

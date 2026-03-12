@@ -1,0 +1,53 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+venv/
+.venv/
+env/
+__pycache__/
+
+# Next.js
+.next/
+out/
+build/
+
+# Hardhat/Foundry/Solidity
+artifacts/
+cache/
+typechain/
+typechain-types/
+coverage/
+coverage.json
+.openzeppelin/
+cache_forge/
+lcov.info
+
+# Python
+*.py[cod]
+*$py.class
+.pytest_cache/
+.python-version
+.poetry/
+.pdm.toml
+.pdm-python
+.pdm-build/
+
+# Environment variables and secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+
+# IDEs and OS
+.DS_Store
+.vscode/
+.idea/
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pip-log.txt
