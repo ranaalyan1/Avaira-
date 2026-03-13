@@ -1,3 +1,6 @@
+HTML Examples
+
+Basic HTML structure:
 <html>
 <head>
 <title> Page Title Goes Here </title>
@@ -6,13 +9,16 @@
 content goes here
 </body>
 </html>
-Adding audio,image and video files:
+
+Adding audio, image and video files:
 <html>
 <head>
-<title>adding video</title>
+<title>Adding Media</title>
 </head>
 <body>
-<img src=”abc.jpg”>
-<video src=”abc.mp4”>
+<img src="abc.jpg" alt="Sample image" />
+<video src="abc.mp4" controls>
+  Your browser does not support the video tag.
+</video>
 </body>
 </html>
