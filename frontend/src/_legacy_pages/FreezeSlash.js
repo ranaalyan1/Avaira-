@@ -4,7 +4,7 @@ import { ShieldOff, Snowflake, Scissors, AlertTriangle, RefreshCw } from "lucide
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { toast } from "sonner";
 
-const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
+const API = `${process.env.NEXT_PUBLIC_BACKEND_URL}/api`;
 
 export default function FreezeSlash() {
   const [events, setEvents] = useState([]);

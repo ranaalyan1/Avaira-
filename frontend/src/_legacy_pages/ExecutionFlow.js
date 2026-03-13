@@ -4,7 +4,7 @@ import { Send, CheckCircle, XCircle, Clock, FileKey, Shield, Zap, RefreshCw } fr
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { toast } from "sonner";
 
-const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
+const API = `${process.env.NEXT_PUBLIC_BACKEND_URL}/api`;
 
 const STEP_ICONS = { request_submitted: Send, risk_validation: Shield, permit_signed: FileKey, permit_verified: CheckCircle, transaction_executed: Zap, fee_deducted: Clock };
 

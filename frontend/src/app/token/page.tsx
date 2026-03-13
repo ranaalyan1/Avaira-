@@ -5,6 +5,8 @@ import { ConnectButton } from '@rainbow-me/rainbowkit';
 import { CONTRACTS, AVAIRA_TOKEN_ABI } from '../contracts';
 import { StatsCard } from '../components/StatsCard';
 
+const ZERO_ADDRESS = '0x0000000000000000000000000000000000000000';
+
 export default function TokenPage() {
   const { address, isConnected } = useAccount();
 
@@ -54,7 +56,7 @@ export default function TokenPage() {
               ['Decimals', '18'],
               ['Network', 'Avalanche Fuji (C-Chain)'],
               ['Standard', 'ERC-20'],
-              ['Contract', CONTRACTS.AvairaToken === '0x0000000000000000000000000000000000000000' ? 'Not deployed yet' : CONTRACTS.AvairaToken],
+              ['Contract', (CONTRACTS.AvairaToken as string) === ZERO_ADDRESS ? 'Not deployed yet' : CONTRACTS.AvairaToken],
             ].map(([key, val]) => (
               <div key={key} className="flex items-center justify-between py-2 border-b border-border/50">
                 <span className="text-foreground/50 text-sm">{key}</span>
