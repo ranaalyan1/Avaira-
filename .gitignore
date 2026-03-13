@@ -16,6 +16,10 @@ node_modules/
 !.yarn/releases
 !.yarn/versions
 
+# Non-pnpm lockfiles (this project uses pnpm exclusively)
+yarn.lock
+package-lock.json
+
 # Testing
 /coverage
 
