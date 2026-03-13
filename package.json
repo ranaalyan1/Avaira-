@@ -6,9 +6,9 @@
   "scripts": {
     "dev": "pnpm --filter frontend dev",
     "dev:backend": "cd backend && npm run dev",
-    "compile": "cd contracts && .\\node_modules\\.bin\\hardhat compile",
-    "test": "cd contracts && .\\node_modules\\.bin\\hardhat test",
-    "deploy:fuji": "cd contracts && .\\node_modules\\.bin\\hardhat run scripts/deploy.cjs --network fuji",
+    "compile": "cd contracts && npx hardhat compile",
+    "test": "cd contracts && npx hardhat test",
+    "deploy:fuji": "cd contracts && npx hardhat run scripts/deploy.cjs --network fuji",
     "build": "pnpm --filter frontend build"
   },
   "workspaces": [
