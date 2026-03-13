@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { Code, Shield, FileKey, Snowflake, Wallet, TrendingUp, Heart, ChevronDown, ChevronRight, AlertTriangle, Zap } from "lucide-react";
 
-const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
+const API = `${process.env.NEXT_PUBLIC_BACKEND_URL}/api`;
 
 const CONTRACT_ICONS = {
   AgentRegistry: Shield,

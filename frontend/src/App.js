@@ -16,7 +16,7 @@ import Underwriters from "@/pages/Underwriters";
 import SDKDocs from "@/pages/SDKDocs";
 import { Toaster } from "sonner";
 
-const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
+const API = `${process.env.NEXT_PUBLIC_BACKEND_URL}/api`;
 
 export const AuthContext = createContext({ user: null, setUser: () => {}, logout: () => {} });
 export const useAuth = () => useContext(AuthContext);

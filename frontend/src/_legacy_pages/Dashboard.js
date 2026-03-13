@@ -4,7 +4,7 @@ import { Activity, Users, Zap, ShieldOff, Wallet, TrendingUp, Play, AlertTriangl
 import { AreaChart, Area, XAxis, YAxis, Tooltip, ResponsiveContainer, PieChart, Pie, Cell } from "recharts";
 import { toast } from "sonner";
 
-const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
+const API = `${process.env.NEXT_PUBLIC_BACKEND_URL}/api`;
 
 const StatCard = ({ icon: Icon, label, value, color, delay }) => (
   <div className={`cyber-card p-4 animate-slide-in stagger-${delay}`} data-testid={`stat-${label.toLowerCase().replace(/\s+/g, '-')}`}>
