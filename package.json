@@ -16,6 +16,14 @@
     "frontend",
     "sdk"
   ],
+  "pnpm": {
+    "overrides": {
+      "axios": ">=1.13.5"
+    }
+  },
+  "overrides": {
+    "axios": ">=1.13.5"
+  },
   "engines": {
     "node": ">=18.0.0"
   },
